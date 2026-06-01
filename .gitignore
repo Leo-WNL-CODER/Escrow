@@ -6,3 +6,14 @@ node_modules
 test-ledger
 .yarn
 .surfpool
+# Keypairs
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# Rust
+Cargo.lock
+/target/
+**/*.rs.bk
+*.pdb
